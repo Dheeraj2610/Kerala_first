@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+    <style>
+  
+        .container {
+            background-color: #0f0e0ee1;
+            color: rgb(201, 201, 201);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 60%;
+            min-height: 40%;
+            margin-bottom: 20px;
+            margin: 20px 20px 10px auto;
+        }
+        .parent-container {
+            display: flex;
+            gap: 10px;
+            align-items: flex-start; 
+        }
+
+        .content {
+            margin-top: 50px;
+            margin-left: 50px;
+            width: 40%;
+        }
+      
+    .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+       
+        .row div {
+            flex: 1;
+           
+        }
+        input{
+            background-color:  #4c4c4cb0;
+            
+        }
+        ::placeholder{
+            color: white;
+        }
+       
+        label {
+           
+            font-weight: bold;
+        }
+        .abc {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color:  #4c4c4cb0;
+            color: white;
+            
+        }
+        textarea.abc {
+            resize: vertical;
+        }
+        select.abc {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+           
+        }
+        .submitbutton {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        .submitbutton:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            margin-top: 50px;
+        }
+
+        .footer_div {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .footer_div > div {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .footer_div > div:last-child {
+            margin-right: 0;
+        }
+
+        .footer_div span {
+            margin-bottom: 1px;
+        }
+   </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="navbar-brand" href="#">
+                <img src="logo.webp" width="30" height="30" class="d-inline-block align-top" alt="">
+                Kerala First
+              </a>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="kerala_first.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact_us.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="register.html" class="btn btn-success">Register</a>
+            </ul>
+          </div>
+      </nav>
+      <div class="parent-container">
+      <div class="content" style="width: 40%;">
+        <h5>GET IN TOUCH WITH KERALA FIRST TUITION ACADEMY</h5><br>
+        <p><span><i class="fas fa-sharp fa-regular fa-circle-check"></i></span> free to reach out to us with any questions, concerns, or inquiries. We're here to assist you on your educational journey.</p>
+        <p><span><i class="fas fa-sharp fa-regular fa-circle-check"></i></span> Drop by our office for a personalized consultation. We'd love to discuss how our educational services can benefit you or your child</p>
+        <p><span><i class="fas fa-sharp fa-regular fa-circle-check"></i></span> Reach our dedicated team via phone or email. Whether you prefer a quick call or a detailed email, we're ready to provide the information you need</p>
+        <p><span><i class="fas fa-sharp fa-regular fa-circle-check"></i></span> Our office is open during specific hours. Check our schedule to ensure you catch us at the right time for a face-to-face discussion or consultation</p>
+        <p><span><i class="fas fa-sharp fa-regular fa-circle-check"></i></span> Stay connected through our social media channels. Follow us for updates, educational tips, and a glimpse into the dynamic world of our educational services</p>
+    </div>
+      
+      <div class="container">
+        <form action="#">
+            <h3 style="color: white;">Fill out the form below</h3><br>
+            <div class="row">
+                <div>
+                    <label>First Name</label>
+                    <input class="abc" type="text" placeholder="First name">
+                </div>
+                <div>
+                    <label>Last Name</label>
+                    <input class="abc" type="text" placeholder="Last name">
+                </div><br><br><br><br>
+            </div>
+            <div class="row">
+                <div>
+                    <label>Email</label>
+                    <input class="abc" type="email" placeholder="Enter email">
+                </div>
+                <div>
+                    <label>Phone</label>
+                    <input class="abc" type="number" placeholder="Enter phone no">
+                </div><br><br><br>
+            </div><br>
+            <div class="row">
+                <div>
+                <label>Class</label>
+                <select class="abc">
+                    <option value="">Class 08</option>
+                    <option value="">Class 09</option>
+                    <option value="">class 10</option>
+                </select>
+                </div>
+                <div>
+                    <label>Gender</label>
+                    <select class="abc">
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Other</option>
+                    </select>
+                </div>
+            </div>
+            <label>Address</label>
+            <textarea class="abc" name="" id="" cols="30" rows="3"></textarea><br><br>
+            <input class="submitbutton" type="submit">
+        </form>
+    </div>
+</div>
+<footer>
+    <div class="footer_div">
+        <div>
+            <img src="logo.webp" width="30" height="30" class="d-inline-block align-top" alt=""><br>
+            <p>The Premier tuition institute in kerala for science and mathematics.<p>
+            
+                <a href="">
+                  <i class="fab fa-facebook-f"></i>
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="" >
+                  <i class="fab fa-twitter"></i>
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="" >
+                  <i class="fab fa-google"></i>
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="" >
+                  <i class="fab fa-instagram"></i>
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="" >
+                  <i class="fab fa-linkedin"></i>
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="">
+                  <i class="fab fa-github"></i>
+                </a>
+              
+        </div>
+        <div>
+            <h6>Quick Links</h6>
+           <span>Home</span><br>
+           <span>Contact US</span><br>
+           <span>Register</span><br>
+           <span>Sitemap</span>
+        </div>
+        <div>
+            <h6>Branches</h6>
+           <span>Kollam</span><br>
+           <span>Ernakulam</span><br>
+           <span>Thiror</span><br>
+           <span>Chalakudi</span>
+        </div>
+        <div>
+            <h6>contact</h6>
+           <span>Toll FRee:+123 45678867</span><br>
+           <span>Email:example@gmail.com</span><br>
+           <span><p>Address:Kerala First Tuition Academy
+            Opposite Students Book StallChurchStop, Chalakudy South Junction</p></span><br>
+         
+        </div>
+    </div>
+   
+        <div style="text-align: center;">
+          <span>Copyrights ©2023 Kerala First. Build by MashupTech</span>
+        </div>
+    
+</footer>
+</body>
+</html>

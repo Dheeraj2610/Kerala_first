@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Contact Us</title>
+    <style>
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 100px;
+            margin-left: 90px;
+            margin-right: 90px;
+            
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+           flex-wrap: wrap;
+            padding: 40px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        
+        /* .heading {
+            width: 45%; 
+            margin-right: 20px;
+        } */
+
+        /* form {
+            display: flex;
+            flex-direction: column;
+        } */
+        
+        .row {
+            gap: 10px;
+            
+        }
+
+        .row div {
+            flex: 1;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .abc {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .submitbutton {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .submitbutton:hover {
+            background-color: #0056b3;
+        }
+        .card-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .card{
+            height: auto;
+           padding: 5px;
+           background-color:#cccccc2d;;
+          
+        }
+      
+     
+        footer {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            margin-top: 50px;
+        }
+
+        .footer_div {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .footer_div > div {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .footer_div > div:last-child {
+            margin-right: 0;
+        }
+
+        .footer_div span {
+            margin-bottom: 1px;
+        }
+    </style>
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg navbar-light" >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="navbar-brand" href="#">
+                <img src="logo.webp" width="30" height="30" class="d-inline-block align-top" alt="">
+                Kerala First
+              </a>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="kerala_first.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="register.html" class="btn btn-success">Register</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+     <div class="wrapper"> 
+      <div class="heading">
+        <H2><b>Access the right service for your kid today!!</b></H2><br>
+        <h6 style="color: #989a9e;">Claim your free 10-minute phone call to see if we are right for your kid.</h6>
+        <!-- cards -->
+        <div class="card-container">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                <h5 class="card-title">Email  <i style="color: red;" class="fas fa-regular fa-envelope"></i> </h5>
+               
+                <p class="card-text">example@gmial.com</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                <h5 class="card-title">WhatsApp No <i style="color: rgb(68, 177, 68);" class="fa-brands fa-whatsapp"></i></h5>
+                <p class="card-text">9567034555</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                <h5 class="card-title">Telephone <i class="fas fa-regular fa-phone"></i></h5>
+                <p class="card-text">+123 345676</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                <h5 class="card-title">Website <i style="color: #007bff;" class="fas fa-light fa-globe"></i></h5>
+                <p class="card-text"> http://example.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+      <div class="container" style="background-color: #cccccc2d;">
+        <form action="#">
+            <div class="row">
+                <div>
+                    <label>First Name</label>
+                    <input class="abc" type="text" placeholder="First name">
+                </div>
+                <div>
+                    <label>Last Name</label>
+                    <input class="abc" type="text" placeholder="Last name">
+                </div><br><br><br><br>
+            </div>
+            <div class="row">
+                <div>
+                    <label>Email</label>
+                    <input class="abc" type="email" placeholder="Enter email">
+                </div>
+                <div>
+                    <label>Phone</label>
+                    <input class="abc" type="text" placeholder="Enter phone no">
+                </div><br><br><br>
+            </div><br>
+            <label>Message</label>
+            <textarea class="abc" name="" id="" cols="30" rows="3"></textarea><br>
+            <input class="submitbutton" type="submit">
+        </form>
+    </div>
+</div>
+<footer>
+    <div class="footer_div">
+        <div>
+            <img src="logo.webp" width="30" height="30" class="d-inline-block align-top" alt=""><br>
+            <p>The Premier tuition institute in kerala for science and mathematics.<p>
+            
+                <a href="">
+                  <i class="fab fa-facebook-f"></i>
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="" >
+                  <i class="fab fa-twitter"></i>
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="" >
+                  <i class="fab fa-google"></i>
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="" >
+                  <i class="fab fa-instagram"></i>
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="" >
+                  <i class="fab fa-linkedin"></i>
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="">
+                  <i class="fab fa-github"></i>
+                </a>
+              
+        </div>
+        <div>
+            <h6>Quick Links</h6>
+           <span>Home</span><br>
+           <span>Contact US</span><br>
+           <span>Register</span><br>
+           <span>Sitemap</span>
+        </div>
+        <div>
+            <h6>Branches</h6>
+           <span>Kollam</span><br>
+           <span>Ernakulam</span><br>
+           <span>Thiror</span><br>
+           <span>Chalakudi</span>
+        </div>
+        <div>
+            <h6>contact</h6>
+           <span>Toll FRee:+123 45678867</span><br>
+           <span>Email:example@gmail.com</span><br>
+           <span><p>Address:Kerala First Tuition Academy
+            Opposite Students Book StallChurchStop, Chalakudy South Junction</p></span><br>
+         
+        </div>
+    </div>
+   
+        <div style="text-align: center;">
+          <span>Copyrights ©2023 Kerala First. Build by MashupTech</span>
+        </div>
+    
+</footer>
+</body>
+</html>
