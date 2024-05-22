@@ -8,49 +8,302 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Kerala_First</title>
     <style>
- body{
+ 
+  .top{
     background-image: url(kids.avif);
     background-repeat: no-repeat;
     background-size: cover;
-    
- }
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height: 80vh;
+    margin-top: auto;
+  }
  .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.703);
-}
- 
- .container {
   position: relative;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   padding: 20px;
   text-align: center;
-  margin-top: 150px;
+  background-color: rgba(0, 0, 0, 0.477);
+  height: 72vh;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  }
+  .mid{
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  h1{
+      font-size: 10ch;
+  }
+  .aaa{
+      font-size: 3ch;
+      font-weight: 400;
+  }
+  h6{
+      font-size: 2ch;
+      margin-top: 50px;
+  }
  
-}
-img{
-    border-radius: 500px;
-}
-h1{
-    font-size: 10ch;
-}
-span{
-    font-size: 3ch;
-    font-weight: 400;
-}
-h6{
-    font-size: 2ch;
+ .card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
 }
 
-    </style>
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-top-right-radius: 20PX;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    text-align: center;
+}
+
+.card i {
+    font-size: 2em;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-content h3 {
+    margin: 0;
+}
+
+.card-content p {
+    margin: 5px 0 0 0;
+    color: #666;
+}
+
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+     gap: 10px; 
+    padding: 20px;
+    
+    
+}
+/* personalised */
+
+.content {
+    flex:1; 
+    min-width: 200px; 
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    
+}
+
+.content h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.content h3 i {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.content p {
+    margin: 0;
+    color: #666;
+}
+.hd {
+    font-size: 5ch;
+    text-align: center;
+    font-weight: 500;
+    color: #ac1b1b;
+    display: inline-block;
+    width: auto;
+    height: 100px; 
+    padding: 20px 40px; 
+    margin: 0 auto; 
+}
+.section_3 {
+   
+    background-image: url(map_2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center; 
+    height: 560px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    box-sizing: border-box; 
+}
+
+.section_3 h2 {
+    font-size: 400%;
+    margin: 0;
+    padding-left: 100px;
+    color: rgb(81, 136, 78);
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+.video-container video {
+    height: 300px;
+    width: 300px;
+    border: 2px solid #fff; 
+    border-radius: 10px;
+}
+.section_2 {
+    background-color: #f9f9f900; 
+    padding: 45px; 
+   
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 100%; 
+    box-sizing: border-box; 
+}
+
+.section_2 .content_2 {
+    flex: 1; 
+    padding-right: 20px; 
+}
+
+.section_2 h2 {
+    font-size: 2em;
+    color: #ac1b1b; 
+    margin-bottom: 20px;
+    
+    
+}
+
+.section_2 {
+    font-size: 1em;
+    color: #711d1d; 
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.section_2 ul {
+    list-style-type: none; 
+    padding: 0; 
+    text-align: left;
+    width: 500px;
+}
+
+.section_2 h6 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.section_2 img {
+    max-width: 50%;
+    height: auto; 
+   margin-top: 150px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    align-self: flex-start; 
+}
+
+    .section_4 {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    color: #711d1d; ;
+}
+.section_4 h2{
+    color:  #ac1b1b;
+}
+
+.text-container {
+    width: 50%; 
+    padding-right: 20px; 
+}
+
+        .section_4 button {
+            font-size: 1em;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .section_4 button:hover {
+            background-color: #0056b3; 
+        }
+
+        
+        .section_4 ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        
+        .section_4 li {
+            margin-bottom: 5px; 
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            margin-top: 50px;
+        }
+
+        .footer_div {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .footer_div > div {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .footer_div > div:last-child {
+            margin-right: 0;
+        }
+
+        .footer_div span {
+            margin-bottom: 1px;
+        }
+ </style>
 </head>
 <body>
-    
-<div class="overlay">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(0, 0, 0, 0.114);">
+  <section class="top">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(0, 0, 0, 0.444);">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <a class="navbar-brand" href="#">
                 <img src="logo.webp" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -58,7 +311,7 @@ h6{
               </a>
             <ul class="navbar-nav ml-auto">
               <li class="nav-item ">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="kerala_first copy.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact_us.html">Contact Us</a>
@@ -67,21 +320,181 @@ h6{
             </ul>
           </div>
       </nav>
-    <div class="container">
-            <h6><i style="color: rgba(255, 255, 0, 0.701);" class="fas fa-light fa-lightbulb"></i> Nurturing Knowledge & Cultivating Excellence</h6><br>
+     
+   
+    <div class="overlay"><br><br>
+            <h6><i style="color: yellow;" class="fas fa-light fa-lightbulb"></i> Nurturing Knowledge & Cultivating Excellence</h6><br>
             <h1>Kerala's Pioneering Tution Center</h1><br>
             <p>Unlocking the door to academic excellence, one lesson at a time.</p><br>
                 <div class="image">
-                    <img src="img_2.jpg" alt="" width="30" height="30">
-                    <img src="img_3.png" alt="" width="30" height="30">
-                    <img src="img_4.jpg" alt="" width="30" height="30">
-                    <img src="img_5.jpg" alt="" width="30" height="30">
-                    <span>Trusted by over 65K Students Since 2022</span>
+                    <img style=" border-radius: 500px;" src="img_2.jpg" alt="" width="30" height="30">
+                    <img style=" border-radius: 500px;" src="img_3.png" alt="" width="30" height="30">
+                    <img style=" border-radius: 500px;" src="img_4.jpg" alt="" width="30" height="30">
+                    <img style=" border-radius: 500px;" src="img_5.jpg" alt="" width="30" height="30">
+                    <span class="aaa">Trusted by over 65K Students Since 2022</span>
                 </div>
     </div>
+  </section>
+  <section class="mid">
+    <h2 style="font-size: 5ch;text-align: center;">The Premier Tuition Center For Science & Maths</h2><br>
+    <p>The best cost-efficient choice for parents looking for high-quality education, Dedicated Timetabled Lessons Offered with qualified Staff.</p>
+   
+ 
+  <div class="card-container">
+    <div class="card">
+       
+        <div class="card-content">
+            <h3><i class="fas fa-user-graduate"></i> 1k</h3>
+            <p>Total students</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <h3><i class="fas fa-user-graduate"></i> 105</h3>
+            <p>Total Instructors</p>
+        </div>
+    </div>
+    <div class="card">
+       
+        <div class="card-content">
+            <h3><i class="fas fa-book-open-reader"></i> 2K+</h3>
+            <p>Total activities</p>
+        </div>
+    </div>
 </div>
-<div>
+</section>
 
-</div>
+    <section style="margin-top: 10%;">
+    <h2 class="hd" >Find Out Why, <span style="color: rgb(58, 201, 58);">Kerala </span>  First.</h2>
+
+    <div class="content-container">
+        <img class="image" src="stu4.jpg" alt="" style="width: 500px; height: 500px; ">
+        <div class="content">
+            <h3><i class="fas fa-user-graduate"></i> Personalized Tutoring</h3>
+            <p>Our experienced tutors offer one-on-one or small group sessions to provide personalized support and address individual learning needs.</p>
+        </div>
+        <div class="content">
+            <h3><i class="fas fa-duotone fa-book"></i> Subject Expertise</h3>
+            <p>We cover a broad spectrum of subjects, including mathematics, science, language arts, and more. Our tutors are subject-matter experts who can help students grasp even the most challenging topics.</p>
+        </div>
+        <div class="content">
+            <h3><i class="fas fa-sharp fa-solid fa-bell"></i> Exam Preparation</h3>
+            <p>Whether it's standardized tests, school exams, or college entrance exams, we offer specialized courses to help students excel and achieve their academic goals.</p>
+        </div>
+        <div class="content">
+            <h3><i class="fas fa-book-open-reader"></i> Academic Enrichment</h3>
+            <p>Our programs go beyond the standard curriculum, providing enrichment opportunities for students who want to deepen their understanding and excel in their studies.</p>
+        </div>
+    </div>
+    </section>
+
+    <div class="section_2">
+        <div class="content_2">
+            <h2>Power in a Thoughtful Education Professional Team</h2>
+            <p>A robust force, our expert educators form a thoughtful team, delivering impactful education with strength and unity.</p>
+            <ul>
+                <li>
+                    <h6>Experienced and Passionate Educators</h6>
+                    <p>At the core of our success lies a team of seasoned and enthusiastic educators. Their wealth of knowledge and expertise forms the bedrock of our educational approach, ensuring a high standard of instruction.</p>
+                </li>
+                <li>
+                    <h6>Bringing Learning to Life</h6>
+                    <p>Going beyond conventional tutoring, our educators excel at making complex concepts come alive. Through innovative teaching methods, they transform learning into a vibrant and easily understandable experience, fostering engagement and comprehension.</p>
+                </li>
+                <li>
+                    <h6>Mentors, Motivators, and Educational Partners</h6>
+                    <p>We transcend the role of mere tutors, embracing positions as mentors, motivators, and active partners in your child's educational journey. Our commitment extends beyond the classroom as we collaborate to inspire and guide students toward continuous growth and success.</p>
+                </li>
+            </ul>
+        </div>
+        <img src="tchr.webp" alt="Education Team">
+    </div>
+    
+    <div class="section_3">
+        <div class="text-container">
+            <h2>Study whenever you want,</h2>
+            <h2>from any place in</h2>
+            <h2>the world.</h2>
+        </div>
+        <div class="video-container">
+            <video height="300px" width="300px" controls autoplay>
+                <source src="js_calc.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div class="section_4">
+        <div class="text-container">
+            <h2>EVERYONE IS ABLE TO SHARPEN THEIR SKILLS</h2>
+            <p style="width: 670px;">We believe that education is the key to unlocking the full potential of every student. We are Kerala's premier tuition center, dedicated to providing top-notch educational support and guidance to students of all levels. Our commitment to excellence has made us a trusted name in the world of education.</p>
+            <ul>
+                <li><i style="color: rgb(30, 179, 7);" class="fas fa-solid fa-arrow-right"></i> Experienced Faculty</li>
+                <li><i style="color: rgb(30, 179, 7);"  class="fas fa-solid fa-arrow-right"></i> Online Mobile App Facility</li>
+                <li><i style="color: rgb(30, 179, 7);"  class="fas fa-solid fa-arrow-right"></i> 24x7 Doubt clearance Session</li>
+                <li><i style="color: rgb(30, 179, 7);"  class="fas fa-solid fa-arrow-right"></i> Offline Theory + Live Sessions</li>
+                <li><i style="color: rgb(30, 179, 7);"  class="fas fa-solid fa-arrow-right"></i> Weekly Model Exams</li>
+                <li><i style="color: rgb(30, 179, 7);"  class="fas fa-solid fa-arrow-right"></i> Convenience of paying fees in monthly installments</li>
+                <li><button>More about us</button></li>
+            </ul>
+        </div>
+       
+            <img width="50%" height="50%" src="onle.jpg" alt="">
+       
+    </div>
+
+    <footer>
+        <div class="footer_div">
+            <div>
+                <img src="logo.webp" width="30" height="30" class="d-inline-block align-top" alt=""><br>
+                <p>The Premier tuition institute in kerala for science and mathematics.<p>
+                
+                    <a href="">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="" >
+                      <i class="fab fa-twitter"></i>
+                    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="" >
+                      <i class="fab fa-google"></i>
+                    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="" >
+                      <i class="fab fa-instagram"></i>
+                    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="" >
+                      <i class="fab fa-linkedin"></i>
+                    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  
+            </div>
+            <div>
+                <h6>Quick Links</h6>
+               <span>Home</span><br>
+               <span>Contact US</span><br>
+               <span>Register</span><br>
+               <span>Sitemap</span>
+            </div>
+            <div>
+                <h6>Branches</h6>
+               <span>Kollam</span><br>
+               <span>Ernakulam</span><br>
+               <span>Thiror</span><br>
+               <span>Chalakudi</span>
+            </div>
+            <div>
+                <h6>contact</h6>
+               <span>Toll FRee:+123 45678867</span><br>
+               <span>Email:example@gmail.com</span><br>
+               <span><p>Address:Kerala First Tuition Academy
+                Opposite Students Book StallChurchStop, Chalakudy South Junction</p></span><br>
+             
+            </div>
+        </div>
+       
+            <div style="text-align: center;">
+              <span>Copyrights ©2023 Kerala First. Build by MashupTech</span>
+            </div>  
+    </footer>
 </body>
 </html>
